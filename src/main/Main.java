@@ -4,6 +4,7 @@
  */
 package main;
 
+import core.Perro;
 import core.Person;
 
 /**
@@ -14,7 +15,9 @@ public class Main {
     
     public static void main(String[] args) {
         Person persona = new Person ("Juan","Ingeniero", 15, 15.2);
+        Perro perro = new Perro("Joel", 13, "Snowser", "blanco");
         System.out.println(persona);
+        System.out.println(perro);
     }
     
 }
